@@ -73,45 +73,45 @@ Reprezentuje firmu s názvem, popisem a odděleními.
 1. Zadání (jiné než z přednášek) si vymyslíte sami, projekt ale musí obsahovat minimálně sedm
    tříd.
 
-   - <code style="color:green"> Mé Zadání nebylo nikdy na přednášsce zmíněno</code>
+   - <span style="color:green"> Mé Zadání nebylo nikdy na přednášsce zmíněno</span>
 
 2. Součástí projektu bude vlastní návrh popsaný v textové podobě a doplněný UML diagramem
    tříd (nebo jiným schématem popisujícím srozumitelně vztahy mezi třídami).
 
-   - <code style="color:green"> splněno tímto README</code>
+   - <span style="color:green"> splněno tímto README</span>
 
 3. Projekt bude obsahovat kompozice (hierarchie) objektů.
 
-   - <code style="color:green"> Např. Company má jako atribut pole \[Department\]</code>
+   - <span style="color:green"> Např. Company má jako atribut pole \[Department\]</span>
 
 4. Projekt bude obsahovat a používat přetížené metody.
 
-   - <code style="color:green"> Např. Přetížení Constructoru pro třídu Person</code>
+   - <span style="color:green"> Např. Přetížení Constructoru pro třídu Person</span>
 
 5. Projekt bude obsahovat a používat třídu v roli objektu.
 
-   - <code style="color:green"> Splněno statickým atributem compnayCount ve třídě Company</code>
+   - <span style="color:green"> Splněno statickým atributem compnayCount ve třídě Company</span>
 
 6. Projekt bude obsahovat a využívat dědičnou hierarchii obsahující alespoň tři třídy.
 
-   - <code style="color:green"> Splněno dědičností Boss -> Worker -> Person</code>
+   - <span style="color:green"> Splněno dědičností Boss -> Worker -> Person</span>
 
 7. Dědičnost bude obsahovat a používat jak rozšíření (dat i metod), tak změnu chování s využitou
    pozdní vazbou.
 
-   - <code style="color:green"> Rozšíření splněno ve třídě Worker, která rozšiřuje třídu Person o atributy Position, Salary a hireDate </code>
-   - <code style="color:green"> Změna chování s využitím pozdní vazby splněno u Virtuální metody Person::printInfo, kterou si později upravují třídy Worker a Boss.</code>
+   - <span style="color:green"> Rozšíření splněno ve třídě Worker, která rozšiřuje třídu Person o atributy Position, Salary a hireDate </span>
+   - <span style="color:green"> Změna chování s využitím pozdní vazby splněno u Virtuální metody Person::printInfo, kterou si později upravují třídy Worker a Boss.</span>
 
 8. Dědičná hierarchie bude obsahovat čistě abstraktní třídu.
 
-   - <code style="color:green"> splněno čistě abstraktní třídou CompanyPrinter, ze které dědí třída Company.</code>
+   - <span style="color:green"> splněno čistě abstraktní třídou CompanyPrinter, ze které dědí třída Company.</span>
 
 9. Projekt bude využívat polymorfismus (polymorfní přiřazení i polymorfní datovou strukturu).
 
-   - <code style="color:green"> Splněno u třídy Boss, která má jako atribut pole Worker třídou Person</code>
+   - <span style="color:green"> Splněno u třídy Boss, která má jako atribut pole Worker třídou Person</span>
 
 10. Po spuštění projektu bude vytvořeno alespoň několik desítek objektů zahrnujících objekty všech
     deklarovaných tříd (s výjimkou abstraktních) a ve výpisu na konzole budou prezentovány
     výsledky úloh, které objekty vykonají.
 
-    - <code style="color:green"> Splněno v [Mainu](main.cpp).</code>
+    - <span style="color:green"> Splněno v [Mainu](main.cpp).</span>
